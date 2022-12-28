@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/pnpm-lock.yaml": true,
+		"**/next-env.d.ts": true
+	}
+}
