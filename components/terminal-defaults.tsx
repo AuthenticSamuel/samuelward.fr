@@ -7,3 +7,13 @@ export const ExplainLine = () => (
     commands.
   </span>
 );
+
+type UnknownCommandLineProps = {
+  input: string;
+};
+
+export const UnknownCommandLine = ({ input }: UnknownCommandLineProps) => (
+  <span>
+    The <span className="text-slate-400">{input}</span> command does not exist.
+  </span>
+);
